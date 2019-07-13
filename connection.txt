@@ -1,0 +1,1 @@
+server=zpc;uid=sa;password=adidalas;database=disabled people

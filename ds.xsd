@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ds" targetNamespace="http://www.tempuri.org/ds.xsd" xmlns:mstns="http://www.tempuri.org/ds.xsd" xmlns="http://www.tempuri.org/ds.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="ds" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="编号" type="xs:string" minOccurs="0" />
+              <xs:element name="姓名" type="xs:string" minOccurs="0" />
+              <xs:element name="性别" type="xs:string" minOccurs="0" />
+              <xs:element name="出生日期" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="身份证号" type="xs:string" minOccurs="0" />
+              <xs:element name="残疾证号" type="xs:string" minOccurs="0" />
+              <xs:element name="户籍地址" type="xs:string" minOccurs="0" />
+              <xs:element name="户籍所属区" type="xs:string" minOccurs="0" />
+              <xs:element name="户籍所属街道" type="xs:string" minOccurs="0" />
+              <xs:element name="户籍所属社区" type="xs:string" minOccurs="0" />
+              <xs:element name="现在地址" type="xs:string" minOccurs="0" />
+              <xs:element name="地址所属区" type="xs:string" minOccurs="0" />
+              <xs:element name="地址所属街道" type="xs:string" minOccurs="0" />
+              <xs:element name="地址所属社区" type="xs:string" minOccurs="0" />
+              <xs:element name="邮编" type="xs:string" minOccurs="0" />
+              <xs:element name="宅电" type="xs:string" minOccurs="0" />
+              <xs:element name="手机" type="xs:string" minOccurs="0" />
+              <xs:element name="工作单位" type="xs:string" minOccurs="0" />
+              <xs:element name="单位电话" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼1" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼1姓名" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼1单位" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼1残疾" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼2" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼2姓名" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼2单位" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼2残疾" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼3" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼3姓名" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼3单位" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼3残疾" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼4" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼4姓名" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼4单位" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼4残疾" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼5" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼5姓名" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼5单位" type="xs:string" minOccurs="0" />
+              <xs:element name="称呼5残疾" type="xs:string" minOccurs="0" />
+              <xs:element name="住房使用面积" type="xs:int" minOccurs="0" />
+              <xs:element name="人均使用面积" type="xs:int" minOccurs="0" />
+              <xs:element name="个人年总收入" type="xs:int" minOccurs="0" />
+              <xs:element name="家庭年总收入" type="xs:int" minOccurs="0" />
+              <xs:element name="家庭消费支出" type="xs:int" minOccurs="0" />
+              <xs:element name="食品支出" type="xs:int" minOccurs="0" />
+              <xs:element name="食品占总收入的比例" type="xs:int" minOccurs="0" />
+              <xs:element name="户籍类别" type="xs:string" minOccurs="0" />
+              <xs:element name="民族" type="xs:string" minOccurs="0" />
+              <xs:element name="文化程度" type="xs:string" minOccurs="0" />
+              <xs:element name="学习专业" type="xs:string" minOccurs="0" />
+              <xs:element name="是否在校" type="xs:string" minOccurs="0" />
+              <xs:element name="是否入托" type="xs:string" minOccurs="0" />
+              <xs:element name="婚姻状况" type="xs:string" minOccurs="0" />
+              <xs:element name="刑事犯罪" type="xs:string" minOccurs="0" />
+              <xs:element name="政治面貌" type="xs:string" minOccurs="0" />
+              <xs:element name="住房状况" type="xs:string" minOccurs="0" />
+              <xs:element name="是否刚木或砖混结构" type="xs:string" minOccurs="0" />
+              <xs:element name="收入来源" type="xs:string" minOccurs="0" />
+              <xs:element name="家庭是否有电视机" type="xs:string" minOccurs="0" />
+              <xs:element name="家庭是否有计算机" type="xs:string" minOccurs="0" />
+              <xs:element name="有何特长" type="xs:string" minOccurs="0" />
+              <xs:element name="残疾类别" type="xs:string" minOccurs="0" />
+              <xs:element name="残疾等级" type="xs:string" minOccurs="0" />
+              <xs:element name="肢残分类" type="xs:string" minOccurs="0" />
+              <xs:element name="残疾原因" type="xs:string" minOccurs="0" />
+              <xs:element name="自理程度" type="xs:string" minOccurs="0" />
+              <xs:element name="已接受康复服务" type="xs:string" minOccurs="0" />
+              <xs:element name="已使用器具" type="xs:string" minOccurs="0" />
+              <xs:element name="康复医疗" type="xs:string" minOccurs="0" />
+              <xs:element name="康复训练与指导" type="xs:string" minOccurs="0" />
+              <xs:element name="知识普及" type="xs:string" minOccurs="0" />
+              <xs:element name="用品用具" type="xs:string" minOccurs="0" />
+              <xs:element name="心理支持" type="xs:string" minOccurs="0" />
+              <xs:element name="职业状况" type="xs:string" minOccurs="0" />
+              <xs:element name="从事何种职业" type="xs:string" minOccurs="0" />
+              <xs:element name="专业技术人员" type="xs:string" minOccurs="0" />
+              <xs:element name="技术工人" type="xs:string" minOccurs="0" />
+              <xs:element name="种植" type="xs:string" minOccurs="0" />
+              <xs:element name="养殖" type="xs:string" minOccurs="0" />
+              <xs:element name="劳务" type="xs:string" minOccurs="0" />
+              <xs:element name="培训专业" type="xs:string" minOccurs="0" />
+              <xs:element name="培训时间" type="xs:string" minOccurs="0" />
+              <xs:element name="培训途径" type="xs:string" minOccurs="0" />
+              <xs:element name="是否享受低保" type="xs:string" minOccurs="0" />
+              <xs:element name="是否享受残疾补贴" type="xs:string" minOccurs="0" />
+              <xs:element name="是否五保户" type="xs:string" minOccurs="0" />
+              <xs:element name="是否参加医疗保险" type="xs:string" minOccurs="0" />
+              <xs:element name="是否参加养老保险" type="xs:string" minOccurs="0" />
+              <xs:element name="是否参加失业保险" type="xs:string" minOccurs="0" />
+              <xs:element name="是否享受住房公积金" type="xs:string" minOccurs="0" />
+              <xs:element name="是否得到志愿服务" type="xs:string" minOccurs="0" />
+              <xs:element name="是否参加商业保险" type="xs:string" minOccurs="0" />
+              <xs:element name="曾享受哪些优惠政策或得到哪些扶助" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
